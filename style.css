@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+}
+
+#main-container{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+h1{
+    color: gold;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    float: left; 
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+    text-shadow: 4px 2px red;
+}
+#reset-button{
+    width: 50px;
+    padding: 5px;
+    font-family: serif;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    width: 50px;
+    margin-top: 75px;
+    margin-right: 900px;
+    margin-left: 690px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+#reset-button:hover, #reset-button:focus {
+    background: gold;
+}
+
+.box:hover{
+    background-color: rgb(34, 32, 32); 
+}
+#box0, #box1, #box2, #box3, #box4, #box5{
+    border-bottom: 10px solid white;
+}
+#box2, #box5, #box8, #box1, #box4, #box7{
+    border-left: 10px solid white;
+}
+.winner{
+    color: gold;
+}
+.draw{
+    color: red;
+}
